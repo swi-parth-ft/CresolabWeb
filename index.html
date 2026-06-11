@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
+  <title>Cresolab | Pioneering Therapeutics, Enhancing Life</title>
+  <meta name="description" content="Cresolab is a premier WHO-GMP certified pharmaceutical formulation manufacturer based in Surat, Gujarat, India. Specializing in high-quality tablets, capsules, liquids, and topical ointments.">
+  <meta name="keywords" content="pharma, pharmaceutical manufacturer, WHO-GMP, GIDC Sachin, Surat pharma, tablets, capsules, syrups, Indian pharma exports">
+  
+  <!-- Open Graph / Social SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cresolab | Pioneering Therapeutics, Enhancing Life">
+  <meta property="og:description" content="WHO-GMP certified pharmaceutical manufacturer in Surat, India. Delivering premium quality global healthcare solutions.">
+  <meta property="og:image" content="./assets/hero-lab.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css?v=5">
+</head>
+<body class="loading">
+
+  <!-- Custom Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#/" class="logo" id="logo-link">
+        <svg class="logo-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4.5 16.5c-1.5 1.25-2.5 3-2.5 4.5h20c0-1.5-1-3.25-2.5-4.5" />
+          <path d="M12 2C6.5 2 2 6.5 2 12c0 2.5 1 4.8 2.5 6.5 1.5-1.7 7.5-6.5 7.5-6.5s6 4.8 7.5 6.5c1.5-1.7 2.5-4 2.5-6.5 0-5.5-4.5-10-10-10z" />
+          <circle cx="12" cy="7" r="2.5" />
+        </svg>
+        <span class="logo-text">Cresolab</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <a href="#/" class="nav-link" data-route="home">Home</a>
+        <a href="#/about" class="nav-link" data-route="about">About</a>
+        <a href="#/products" class="nav-link" data-route="products">Catalog</a>
+        <a href="#/rd" class="nav-link" data-route="rd">R&D Pipeline</a>
+        <a href="#/quality" class="nav-link" data-route="quality">Facility</a>
+        <a href="#/global" class="nav-link" data-route="global">Global Reach</a>
+        <a href="#/sustainability" class="nav-link" data-route="sustainability">Sustainability</a>
+        <a href="#/careers" class="nav-link" data-route="careers">Careers</a>
+        <a href="#/news" class="nav-link" data-route="news">Insights</a>
+        <a href="#/contact" class="nav-link" data-route="contact">Contact</a>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle visual theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Trigger -->
+        <button id="menu-toggle" class="icon-btn mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true" role="dialog">
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5 16.5c-1.5 1.25-2.5 3-2.5 4.5h20c0-1.5-1-3.25-2.5-4.5" />
+            <path d="M12 2C6.5 2 2 6.5 2 12c0 2.5 1 4.8 2.5 6.5 1.5-1.7 7.5-6.5 7.5-6.5s6 4.8 7.5 6.5c1.5-1.7 2.5-4 2.5-6.5 0-5.5-4.5-10-10-10z" />
+          </svg>
+          <span class="logo-text">Cresolab</span>
+        </div>
+        <button id="drawer-close" class="icon-btn" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="#/" class="drawer-link" data-route="home">Home</a>
+        <a href="#/about" class="drawer-link" data-route="about">About Us</a>
+        <a href="#/products" class="drawer-link" data-route="products">Products Catalog</a>
+        <a href="#/rd" class="drawer-link" data-route="rd">R&D Pipeline</a>
+        <a href="#/quality" class="drawer-link" data-route="quality">Quality & Facility</a>
+        <a href="#/global" class="drawer-link" data-route="global">Global Reach</a>
+        <a href="#/sustainability" class="drawer-link" data-route="sustainability">Sustainability (ESG)</a>
+        <a href="#/careers" class="drawer-link" data-route="careers">Careers</a>
+        <a href="#/news" class="drawer-link" data-route="news">News & Insights</a>
+        <a href="#/contact" class="drawer-link" data-route="contact">Contact Us</a>
+      </nav>
+      <div class="drawer-footer">
+        <p class="drawer-location">Surat, Gujarat, India</p>
+        <p class="drawer-phone"><a href="tel:+912612840911">+91 261 2840911</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Render Viewport -->
+  <main id="app" class="main-content">
+    <div class="view-loader-container">
+      <div class="view-loader"></div>
+    </div>
+  </main>
+
+  <!-- Product Detail Modal (Dialog Popover) -->
+  <dialog id="product-modal" class="product-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close details">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-body" id="modal-content">
+        <!-- Dynamic content injected here -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Container for Notifications -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-col brand-col">
+          <div class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.5 16.5c-1.5 1.25-2.5 3-2.5 4.5h20c0-1.5-1-3.25-2.5-4.5" />
+              <path d="M12 2C6.5 2 2 6.5 2 12c0 2.5 1 4.8 2.5 6.5 1.5-1.7 7.5-6.5 7.5-6.5s6 4.8 7.5 6.5c1.5-1.7 2.5-4 2.5-6.5 0-5.5-4.5-10-10-10z" />
+            </svg>
+            <span class="logo-text">Cresolab</span>
+          </div>
+          <p class="footer-description" id="footer-tagline">Pioneering Therapeutics. Enhancing Life.</p>
+          <div class="footer-badges">
+            <span class="badge">WHO-GMP</span>
+            <span class="badge">ISO 9001:2015</span>
+          </div>
+        </div>
+
+        <!-- Sitemap Quicklinks Column 1 -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Corporate</h3>
+          <ul class="footer-links">
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/about">About Us</a></li>
+            <li><a href="#/sustainability">Sustainability (ESG)</a></li>
+            <li><a href="#/careers">Careers at Surat</a></li>
+            <li><a href="#/news">Insights & Press</a></li>
+          </ul>
+        </div>
+
+        <!-- Sitemap Quicklinks Column 2 -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Operations</h3>
+          <ul class="footer-links">
+            <li><a href="#/products">Products Catalog</a></li>
+            <li><a href="#/rd">R&D & Pipeline</a></li>
+            <li><a href="#/quality">Quality Facility</a></li>
+            <li><a href="#/global">Global Reach</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact details -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Contact Details</h3>
+          <ul class="footer-contact" id="footer-contact-info">
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Plot No. 248, GIDC Sachin, Surat, Gujarat, India</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <a href="tel:+912612840911">+91 261 2840911</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <a href="mailto:info@cresolab.com">info@cresolab.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Compliance & Regulatory statement -->
+        <div class="footer-col legal-col">
+          <h3 class="footer-heading">Regulatory Notice</h3>
+          <p class="footer-disclaimer" id="footer-legal-disclaimer">
+            Cresolab is a licensed pharmaceutical formulation manufacturer. Product availability is subject to drug registration and compliance clearances in specific countries.
+          </p>
+        </div>
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-bottom">
+        <p class="copyright" id="footer-copyright">© 2026 Cresolab. All Rights Reserved. Manufactured in India.</p>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn" class="social-icon">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="#" aria-label="Export Inquiries" class="social-icon">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/data-fallback.js?v=5"></script>
+  <script src="./js/app.js?v=5" type="module"></script>
+</body>
+</html>
