@@ -6,12 +6,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Cardiovascular",
     "strength": "5mg + 50mg",
-    "description": "Dual-action antihypertensive formulation combining a calcium channel blocker and a beta-blocker. It is engineered for the effective management of chronic essential hypertension, chronic stable angina pectoris, and ischemic cardiac disorders. The dual-mechanism helps lower systemic vascular resistance and reduce cardiac output simultaneously.\n✦ Synergistic Action: Amlodipine relaxes smooth arterial muscle, while Atenolol slows heart rate and stroke volume.\n❖ Cardiac Protection: Recommended for patients with co-existing coronary artery disease to minimize myocardial oxygen demand.",
-    "composition": "Each film-coated tablet contains: Amlodipine Besylate IP equivalent to Amlodipine 5 mg, Atenolol IP 50 mg, Excipients q.s. (Microcrystalline Cellulose, Dibasic Calcium Phosphate, Sodium Starch Glycolate, Magnesium Stearate). Color: Titanium Dioxide IP.",
-    "indications": "Essential hypertension, chronic stable angina pectoris, co-existing hypertension with coronary artery disease, and post-infarction stability.",
     "packaging": "10 x 10 Tablets in Alu-Alu Blister Pack",
-    "dosage": "One tablet daily, preferably in the morning before food, or as directed by the Physician. Do not crush or chew.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresol-AM pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-2",
@@ -20,12 +19,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Anti-Diabetic",
     "strength": "2mg + 500mg",
-    "description": "Oral hypoglycemic combination designed to improve glycemic control in patients with Type-2 Diabetes Mellitus. It combines a second-generation sulfonylurea with a biguanide in a prolonged-release matrix core to provide stable, round-the-clock glycemic regulation while minimizing gastrointestinal distress.\n✦ Prolonged Release: Metformin core uses a hydrophilic polymer matrix to release drug molecules slowly over 12-24 hours.\n❖ Glycemic Control: Glimepiride stimulates insulin secretion from beta cells, while Metformin decreases hepatic glucose production.",
-    "composition": "Each bilayered tablet contains: Glimepiride IP 2 mg (immediate release layer), Metformin Hydrochloride IP 500 mg (prolonged-release layer using a swellable hydrophilic polymer matrix), Excipients q.s. (HPMC, Lactose, Povidone K30, Magnesium Stearate).",
-    "indications": "Adjunct to diet and exercise to improve glycemic control in adults with Type 2 Diabetes Mellitus who do not achieve adequate control on monotherapy.",
     "packaging": "10 x 15 Tablets in Blister Pack",
-    "dosage": "Usually once daily with the main evening meal, or as directed by the Physician. Swallow whole; do not break or split.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Glimcrest-M2 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-3",
@@ -34,12 +32,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Antibiotics",
     "strength": "500mg + 125mg",
-    "description": "Broad-spectrum antibacterial formulation combining a penicillin-class antibiotic with a beta-lactamase inhibitor. It is specifically formulated to combat community-acquired infections caused by beta-lactamase producing organisms, preventing premature drug degradation and clinical failure.\n✦ Dual Ingredients: Amoxicillin provides bactericidal activity, while Clavulanic acid inhibits beta-lactamase enzymes.\n❖ Clinical Spectrum: Active against acute sinusitis, otitis media, lower respiratory infections, and severe skin structure lesions.",
-    "composition": "Each film-coated tablet contains: Amoxicillin Trihydrate IP equivalent to Amoxicillin 500 mg, Diluted Potassium Clavulanate IP equivalent to Clavulanic Acid 125 mg, Excipients q.s. (Microcrystalline Cellulose, Crospovidone, Colloidal Silicon Dioxide, Magnesium Stearate).",
-    "indications": "Lower respiratory tract infections, otitis media, sinusitis, skin and skin structure infections, and severe urinary tract infections.",
     "packaging": "1 x 10 Tablets in Alu-Alu Pack",
-    "dosage": "As directed by the Physician. Typically one tablet twice daily, swallowed whole, preferably at the start of a meal to enhance absorption.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresoclav-625 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-4",
@@ -48,12 +45,11 @@
     "category": "Capsules",
     "therapeuticSegment": "Gastrointestinal",
     "strength": "40mg + 30mg",
-    "description": "Proton pump inhibitor and prokinetic agent combination to treat gastroesophageal reflux disease (GERD) and hyperacidity. It utilizes enteric-coated granules of Pantoprazole and sustained-release pellets of Domperidone to prevent acid reflux, promote gastric emptying, and alleviate associated nausea or dyspepsia.\n✦ Enteric Protection: Pantoprazole is protected from stomach acid by a methacrylic acid copolymer coating.\n❖ Reflux Prophylaxis: Domperidone accelerates upper gastrointestinal transit, reinforcing the lower esophageal sphincter.",
-    "composition": "Each hard gelatin capsule contains: Pantoprazole Sodium Sesquihydrate IP equivalent to Pantoprazole 40 mg (as enteric-coated pellets using Methacrylic Acid Copolymer), Domperidone IP 30 mg (as sustained-release pellets using Ethylcellulose), Excipients q.s.",
-    "indications": "Gastroesophageal Reflux Disease (GERD), dyspepsia, chronic heartburn, peptic ulcers, and associated nausea or vomiting.",
     "packaging": "10 x 10 Capsules in Alu-Alu Blister Pack",
-    "dosage": "One capsule daily in the morning, 30-60 minutes before breakfast with a glass of water, or as directed by the Physician.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/capsules.webp",
+    "imageAlt": "Representative capsules packaging; not the actual Cresocid-D pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-5",
@@ -62,12 +58,11 @@
     "category": "Syrups",
     "therapeuticSegment": "Respiratory",
     "strength": "1mg + 30mg + 50mg per 5ml",
-    "description": "Triple-action cough syrup formulated as a bronchodilator, mucolytic, and expectorant to relieve productive coughs. It acts by widening airway passages, liquefying thick mucus plugs, and enhancing mucociliary clearance in acute and chronic bronchial conditions.\n✦ Bronchodilation: Levosalbutamol selectively stimulates beta-2 receptors, relaxing bronchial smooth muscles.\n❖ Mucus Clearance: Ambroxol thins pulmonary secretions, while Guaiphenesin triggers vagal mucosal output for easier expectoration.",
-    "composition": "Each 5 ml contains: Levosalbutamol Sulphate IP equivalent to Levosalbutamol 1 mg, Ambroxol Hydrochloride IP 30 mg, Guaiphenesin IP 50 mg, Mentholated Aqueous Syrup Base q.s. (Sucrose, Sorbitol Solution, Glycerin, Citric Acid, Flavorings).",
-    "indications": "Relief of productive cough associated with bronchospasm, asthma, acute and chronic bronchitis, and chronic obstructive pulmonary disease (COPD).",
     "packaging": "100 ml Pet Bottle with Measuring Cap",
-    "dosage": "Adults: 5-10 ml three times daily. Children (6-12 years): 2.5-5 ml three times daily, or as directed by the Physician.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/liquids.webp",
+    "imageAlt": "Representative syrups packaging; not the actual Cresocof-LS pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-6",
@@ -76,12 +71,11 @@
     "category": "Ointments",
     "therapeuticSegment": "Analgesic",
     "strength": "1.16% w/w + 10% w/w + 5% w/w",
-    "description": "Topical pain-relief gel targeting localized musculoskeletal pain, inflammation, and joint stiffness. It is formulated in a cooling hydro-penetrating gel base to ensure fast absorption of the active NSAID compound through dermal layers directly to inflamed joint and muscle tissues.\n✦ Localized Action: Diclofenac diethylamine penetrates deep to inhibit prostaglandin synthesis locally.\n❖ Cooling Relief: Methyl salicylate and menthol induce local vasodilation, providing a soothing sensory counter-irritant effect.",
-    "composition": "Diclofenac Diethylamine BP 1.16% w/w (equivalent to Diclofenac Sodium 1% w/w), Methyl Salicylate IP 10% w/w, Menthol IP 5% w/w, Carbomer Gel Base q.s. (Propylene Glycol, Purified Water, Triethanolamine, Isopropyl Alcohol).",
-    "indications": "Relief from backache, muscle strains, joint sprains, sports injuries, tendonitis, osteoarthritis, and localized joint pain.",
     "packaging": "30g Laminated Tube in Carton",
-    "dosage": "Apply gently to the affected area 3-4 times daily, massaging lightly. Wash hands thoroughly after application. For external use only.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/topicals.webp",
+    "imageAlt": "Representative ointments packaging; not the actual Cresolac-DF pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-7",
@@ -90,12 +84,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Antibiotics",
     "strength": "200mg",
-    "description": "Third-generation cephalosporin oral antibiotic indicated for acute respiratory and urinary tract bacterial infections. It exhibits high stability in the presence of beta-lactamase enzymes, providing broad-spectrum bactericidal efficacy against both Gram-positive and Gram-negative pathogens.\n✦ Clinical Utility: Indicated for acute community-acquired pneumonia, acute exacerbations of chronic bronchitis, and uncomplicated UTIs.\n❖ Purity Verification: Every batch is validated using computerized HPLC methods to guarantee exact API concentration.",
-    "composition": "Each film-coated tablet contains: Cefpodoxime Proxetil IP equivalent to Cefpodoxime 200 mg, Excipients q.s. (Lactose Monohydrate, Croscarmellose Sodium, Sodium Lauryl Sulphate, Hydroxypropyl Cellulose, Magnesium Stearate).",
-    "indications": "Acute community-acquired pneumonia, acute otitis media, pharyngitis, tonsillitis, uncomplicated urinary tract infections, and gonococcal urethritis.",
     "packaging": "10 x 10 Tablets in Alu-Alu Blister Pack",
-    "dosage": "One tablet twice daily (every 12 hours) taken with food to maximize absorption, or as directed by the Physician.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresopod-200 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-8",
@@ -104,12 +97,11 @@
     "category": "Injectables",
     "therapeuticSegment": "Antibiotics",
     "strength": "1g (Sterile)",
-    "description": "Injectable cephalosporin antibiotic for deep tissue and systemic infections requiring immediate clinical response. It is supplied as a sterile powder for reconstitution, formulated for rapid systemic bioavailability to combat life-threatening bacterial infections in hospital settings.\n✦ Systemic Efficacy: Achieves rapid, high plasma concentrations to treat sepsis, meningitis, and severe abdominal infections.\n❖ Reconstitution Quality: Accompanied by sterile water for injection, processed through continuous USP-compliant distillation loops.",
-    "composition": "Each vial contains: Sterile Ceftriaxone Sodium IP equivalent to anhydrous Ceftriaxone 1 g. Provided with one ampoule of Sterile Water for Injection IP (10 ml) processed through distillation loops.",
-    "indications": "Severe bacterial infections including sepsis, meningitis, abdominal infections, bone and joint infections, surgical prophylaxis, and skin structure infections.",
     "packaging": "Glass Vial with 10 ml Sterile Water Ampoule in a Carton",
-    "dosage": "For Intramuscular (IM) or Intravenous (IV) administration, as prescribed and monitored by the Physician under clinical settings.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/injectables.webp",
+    "imageAlt": "Representative injectables packaging; not the actual Cresol-IV pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-9",
@@ -118,12 +110,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Neurology",
     "strength": "300mg + 500mcg",
-    "description": "Synergistic combination of an anticonvulsant and Vitamin B12 to relieve neuropathic pain and promote nerve fiber regeneration. It targets hyper-excited calcium channels in damaged nerves while delivering essential vitamins to support myelin sheath repair and alleviate burning pain sensations.\n✦ Nerve Recovery: Gabapentin dampens pathological nerve signals, while Methylcobalamin acts as a cofactor for myelin synthesis.\n❖ Clinical Indications: Indicated for diabetic neuropathy, post-herpetic neuralgia, and chronic radiculopathy.",
-    "composition": "Each film-coated tablet contains: Gabapentin IP 300 mg, Methylcobalamin IP 500 mcg, Excipients q.s. (Calcium Hydrogen Phosphate, Microcrystalline Cellulose, Croscarmellose Sodium, Colloidal Silicon Dioxide, Magnesium Stearate).",
-    "indications": "Diabetic neuropathy, post-herpetic neuralgia, sciatica, trigeminal neuralgia, and peripheral neuropathic pain.",
     "packaging": "10 x 10 Tablets in Alu-Alu Pack",
-    "dosage": "One tablet at bedtime initially, or as adjusted by the Physician based on patient tolerance and pain response.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresonerve-GB pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-10",
@@ -132,12 +123,11 @@
     "category": "Capsules",
     "therapeuticSegment": "Gastrointestinal",
     "strength": "20mg",
-    "description": "Established proton pump inhibitor (PPI) for gastric acid suppression, treating heartburn and acid-peptic disorders. It acts by covalently binding to the proton pumps in gastric parietal cells, providing long-lasting acid inhibition and promoting rapid mucosal healing.\n✦ Acid Regulation: Suppresses basal and stimulated acid outputs, maintaining gastric pH levels above 4.0 for extended healing window.\n❖ Formulation Design: Gastric-resistant pellets ensure the acid-labile molecule bypasses the stomach intact.",
-    "composition": "Each hard gelatin capsule contains: Omeprazole Delayed-Release Pellets IP equivalent to Omeprazole 20 mg, Excipients q.s. (Neutral pellets, Methacrylic Acid Copolymer Type C, Sodium Lauryl Sulphate, Disodium Hydrogen Phosphate).",
-    "indications": "Duodenal ulcer, gastric ulcer, gastroesophageal reflux disease (GERD), erosive esophagitis, and Zollinger-Ellison syndrome.",
     "packaging": "10 x 10 Capsules in Strip Pack",
-    "dosage": "One capsule daily in the morning, 30 minutes before food, swallowed whole, or as directed by the Physician.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/capsules.webp",
+    "imageAlt": "Representative capsules packaging; not the actual Cresomep-20 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-11",
@@ -146,12 +136,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Analgesic",
     "strength": "100mg + 325mg",
-    "description": "Effective combination of an NSAID and an antipyretic to relieve pain, reduce fever, and alleviate skeletal muscle inflammation. It is designed to inhibit cyclooxygenase enzymes (COX-1 and COX-2) globally, reducing inflammatory prostaglandins while acting centrally to regulate body temperature.\n✦ Dual Relievers: Aceclofenac targets joint inflammation directly, while Paracetamol provides rapid systemic analgesic and antipyretic relief.\n❖ Treatment Area: Indicated for osteoarthritis, rheumatoid arthritis, acute spasms, and post-operative pain.",
-    "composition": "Each film-coated tablet contains: Aceclofenac IP 100 mg, Paracetamol IP 325 mg, Excipients q.s. (Microcrystalline Cellulose, Croscarmellose Sodium, Povidone K30, Colloidal Silicon Dioxide, Magnesium Stearate).",
-    "indications": "Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, acute muscle spasms, post-traumatic pain, and low back pain.",
     "packaging": "10 x 10 Tablets in Blister Pack",
-    "dosage": "One tablet twice daily (morning & night) after food with water, or as directed by the Physician.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresol-P pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-12",
@@ -160,12 +149,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Endocrinology",
     "strength": "4mg",
-    "description": "Glucocorticoid formulation providing potent anti-inflammatory and immunosuppressive actions for diverse systemic disorders. It acts at the genomic level to modify inflammatory protein synthesis, providing rapid clinical control during acute allergic or autoimmune flare-ups.\n✦ Immunosuppressive Action: Indicated for systemic lupus erythematosus, acute severe asthma, and severe dermatological emergencies.\n❖ Quality Control: Validated through automated dissolution runs to guarantee uniform, predictable compound release.",
-    "composition": "Each uncoated tablet contains: Methylprednisolone IP 4 mg, Excipients q.s. (Lactose Monohydrate, Microcrystalline Cellulose, Sodium Starch Glycolate, Magnesium Stearate).",
-    "indications": "Endocrine disorders, rheumatoid arthritis, systemic lupus erythematosus, acute asthma exacerbations, severe allergic states, and dermatological crises.",
     "packaging": "10 x 10 Tablets in Alu-Alu Pack",
-    "dosage": "As prescribed and adjusted by the Physician based on disease severity. Doses should be taken with food.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresolin-M pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-13",
@@ -174,12 +162,11 @@
     "category": "Capsules",
     "therapeuticSegment": "Endocrinology",
     "strength": "60,000 IU",
-    "description": "High-dose Vitamin D3 formulation to treat clinical deficiencies, improve calcium absorption, and support bone metabolism. It is delivered in soft gelatin capsules containing Cholecalciferol dissolved in an oil carrier to maximize intestinal absorption and systemic bioavailability.\n✦ Deficit Correction: Promotes active transport of calcium across the intestinal wall, preventing rickets and osteomalacia.\n❖ Packaging Integrity: Packaged in high-barrier amber blisters to protect the fat-soluble vitamin from light-induced oxidation.",
-    "composition": "Each soft gelatin capsule contains: Cholecalciferol IP 60,000 IU (as stabilized Vitamin D3 dissolved in Medium Chain Triglycerides oil), Excipients q.s. Gelatin capsule shell contains: Gelatin, Glycerin, Sorbitol, Preservatives (Methylparaben, Propylparaben).",
-    "indications": "Treatment and prevention of Vitamin D deficiency, osteoporosis management, latent tetany, and metabolic bone disease.",
     "packaging": "1 x 4 Capsules in Blister Card",
-    "dosage": "Typically one capsule weekly for 8 weeks (deficiency phase), followed by monthly maintenance, or as directed by the Physician.",
-    "featured": true
+    "featured": true,
+    "image": "./assets/images/products/capsules.webp",
+    "imageAlt": "Representative capsules packaging; not the actual Cresol-D3 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-14",
@@ -188,12 +175,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Anti-Diabetic",
     "strength": "1mg + 500mg",
-    "description": "Lower strength bilayer oral antidiabetic for early stage or combination therapy adjustment of type 2 diabetes. It is formulated in a dual-release tablet configuration to provide a starting dose of Glimepiride alongside a prolonged-release biguanide matrix for stable blood glucose control.\n✦ Dual Kinetics: Provides immediate sulfonylurea release alongside sustained biguanide absorption to avoid hypoglycemic crashes.\n❖ Patient Compliance: Helps consolidate diabetic regimens into a single daily tablet, reducing dosing fatigue.",
-    "composition": "Each bilayered tablet contains: Glimepiride IP 1 mg (immediate release layer), Metformin Hydrochloride IP 500 mg (prolonged-release layer), Excipients q.s. (HPMC, Povidone, Lactose, Microcrystalline Cellulose, Magnesium Stearate).",
-    "indications": "First-line or combination control of hyperglycemia in type 2 diabetes mellitus when diet and monotherapy are insufficient.",
     "packaging": "10 x 15 Tablets in Blister Pack",
-    "dosage": "Once daily with breakfast or main meal, swallowed whole, or as prescribed by the Physician.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Glimcrest-M1 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-15",
@@ -202,12 +188,11 @@
     "category": "Syrups",
     "therapeuticSegment": "Antibiotics",
     "strength": "200mg + 28.5mg per 5ml",
-    "description": "Co-amoxiclav pediatric formulation in dry syrup form, targeted at pediatric upper respiratory and ear infections. It is processed as a sterile dry powder to ensure maximum chemical stability of the amoxicillin and clavulanate molecules prior to reconstitution with sterile water.\n✦ Taste Optimization: Masked using micro-encapsulated taste barrier particles to ensure high pediatric acceptance and compliance.\n❖ Reconstitution Quality: Reconstitution yields a highly stable, uniform oral suspension with zero sediment clumping.",
-    "composition": "After reconstitution, each 5 ml of suspension contains: Amoxicillin Trihydrate IP equivalent to Amoxicillin 200 mg, Potassium Clavulanate IP equivalent to Clavulanic Acid 28.5 mg, Excipients q.s. (Xanthan Gum, Colloidal Silicon Dioxide, Succinic Acid, Sweetening agents, Flavorings).",
-    "indications": "Pediatric otitis media, acute sinusitis, tonsillitis, lower respiratory infections, and skin/soft tissue infections in children.",
     "packaging": "30ml Bottle with Sterile Water for Reconstitution",
-    "dosage": "Based on pediatric body weight and age. To be administered under a pediatrician's guidance using the measuring cup provided.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/liquids.webp",
+    "imageAlt": "Representative syrups packaging; not the actual Cresomox-CV pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-16",
@@ -216,12 +201,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Endocrinology",
     "strength": "8mg",
-    "description": "Potent corticosteroid tablet for anti-inflammatory control in acute rheumatoid or dermatological crises. It provides a higher dose of methylprednisolone to manage severe systemic inflammation, asthma exacerbations, and acute transplant rejection prophylaxis under clinical supervision.\n✦ Direct Action: Suppresses leukocyte infiltration and cytokine cascades to mitigate acute inflammatory tissue damage.\n❖ Safety Packaging: Provided in secure Alu-Alu packs with detailed patient compliance guides.",
-    "composition": "Each uncoated tablet contains: Methylprednisolone IP 8 mg, Excipients q.s. (Lactose, Cellulose, Sodium Starch Glycolate, Magnesium Stearate).",
-    "indications": "Severe asthma, collagen diseases, systemic allergies, dermatological disorders, endocrine crises, and acute immune suppression.",
     "packaging": "10 x 10 Tablets in Alu-Alu Pack",
-    "dosage": "Starting dose determined by physician. Gradually tapered as condition improves. Swallow with meals to protect gastric lining.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresolin-M8 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-17",
@@ -230,12 +214,11 @@
     "category": "Tablets",
     "therapeuticSegment": "Gastrointestinal",
     "strength": "40mg",
-    "description": "Proton pump inhibitor (PPI) designed to target and suppress hydrochloric acid secretion in stomach cells. It blocks the final step of acid production, providing prolonged relief from hyperacidity, peptic ulcer pain, and severe reflux esophagitis.\n✦ Gastric Defense: Helps restore protective mucosal barriers by keeping stomach acidity low for up to 24 hours.\n❖ Coating Quality: Coated with an acid-resistant polymer film that dissolves only in the alkaline environment of the duodenum.",
-    "composition": "Each gastro-resistant tablet contains: Pantoprazole Sodium Sesquihydrate IP equivalent to Pantoprazole 40 mg, Excipients q.s. Tablet cores are coated with Methacrylic Acid Copolymer Type A to ensure acid resistance.",
-    "indications": "Gastric ulcers, duodenal ulcers, moderate to severe gastroesophageal reflux disease (GERD), and pathological hypersecretory conditions.",
     "packaging": "10 x 10 Tablets in Alu-Alu Blister Pack",
-    "dosage": "One tablet daily in the morning, 1 hour before breakfast, swallowed whole with water, or as prescribed.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/tablets.webp",
+    "imageAlt": "Representative tablets packaging; not the actual Cresocid-40 pack",
+    "imageRepresentative": true
   },
   {
     "id": "p-18",
@@ -244,11 +227,10 @@
     "category": "Syrups",
     "therapeuticSegment": "Analgesic",
     "strength": "50mg + 125mg per 5ml",
-    "description": "Pediatric liquid formulation designed to manage high fever, inflammation, and pain in children. It combines a localized anti-inflammatory agent with a central analgesic in a sweet, flavored suspension base to ensure children accept the medication during acute illnesses.\n✦ Synergistic Relief: Aceclofenac targets peripheral muscle pain while Paracetamol regulates the hypothalamic temperature center.\n❖ Dosage Safety: Provided with an accurate, step-marked measuring cup to prevent accidental pediatric overdosing.",
-    "composition": "Each 5 ml contains: Aceclofenac IP 50 mg, Paracetamol IP 125 mg, Flavoured syrup base q.s. (Sucrose, Sorbitol, Glycerin, Xanthan Gum, Colorants, Flavorings).",
-    "indications": "High fever, post-immunization pyrexia, acute pediatric muscle pain, and inflammatory conditions.",
     "packaging": "60 ml Bottle in Carton with measuring cup",
-    "dosage": "To be administered strictly under pediatrician's instructions, calculated based on pediatric body weight and age. Shake well before use.",
-    "featured": false
+    "featured": false,
+    "image": "./assets/images/products/liquids.webp",
+    "imageAlt": "Representative syrups packaging; not the actual Cresol-P Forte pack",
+    "imageRepresentative": true
   }
 ]
