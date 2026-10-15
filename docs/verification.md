@@ -43,3 +43,9 @@ The enquiry flow is a local email-draft flow. No email was sent, no backend was 
 Replaced every diagonal and downward Unicode arrow in shared markup and generated page content with inline SVG paths. Icons inherit the surrounding text colour, remain hidden from assistive technology, and preserve hover motion. Updated CSS and application cache versions to 11.
 
 Verified all six routes in WebKit with an iPhone viewport and in Chromium: no Unicode arrow text remains, icons use SVG paths and the expected stroke styling, and layouts do not overflow. Checked product-dialog and mobile-menu icons, desktop contact layout, and contact screenshots in both engines. WebKit verification uses browser emulation, not a physical iPhone. JavaScript syntax and Git whitespace checks passed.
+
+## Homepage statistic badges — 15 October 2026
+
+Added five SVG statistic badges below the homepage hero: countries served, years of experience, clients globally, product lines, and ready dossiers. The owner requested dummy data; values are taken from the supplied visual reference and are visibly labelled “Illustrative figures”. They are editable in `data/company.json` under `statistics`; the browser fallback is regenerated from that source.
+
+Reviewed WebKit screenshots at 1440px and 390px. Verified all five values, accessible label/value pairs, SVG icons, the illustrative label, and no overflow or clipping at 1440, 768, 390, and 320px. Confirmed the badges also load when JSON requests fail. Source syntax, fallback parity, and whitespace checks passed.

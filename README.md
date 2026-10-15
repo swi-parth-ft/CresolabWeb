@@ -26,7 +26,7 @@ Former manufacturing, research, global, insights, responsibility, and careers UR
 - `index.html`: shared navigation, footer, official logo, and accessible dialogs.
 - `css/style.css`: warm ivory and brown visual system, responsive layout, and reduced-motion support.
 - `js/app.js`: routing, page content, catalog interactions, CSV export, and enquiry drafts.
-- `data/company.json`: company description and contact details.
+- `data/company.json`: company description, contact details, and homepage statistic badges. Edit `statistics.items` to update the values and labels. `statistics.isPlaceholder` displays the “Illustrative figures” label; keep it enabled until approved company figures replace the samples.
 - `data/products.json`: 18 supplied product records, image paths, and alt text.
 - `assets/brand/cresolab-logo.png`: official supplied logo, extracted from the user's PDF.
 - `assets/images/products/`: representative generated pack images. Replace records' image paths and alt text with approved product photos, and set `imageRepresentative` to `false` when appropriate.

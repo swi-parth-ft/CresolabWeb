@@ -9,6 +9,36 @@ window.CresolabFallbackCompany = {
     "email": "info@cresolab.com",
     "emailInquiry": "inquiry@cresolab.com",
     "emailExport": "export@cresolab.com"
+  },
+  "statistics": {
+    "isPlaceholder": true,
+    "items": [
+      {
+        "icon": "globe",
+        "value": "38+",
+        "label": "Countries served"
+      },
+      {
+        "icon": "award",
+        "value": "12+",
+        "label": "Years of experience"
+      },
+      {
+        "icon": "clients",
+        "value": "464+",
+        "label": "Clients globally"
+      },
+      {
+        "icon": "products",
+        "value": "1856+",
+        "label": "Product lines"
+      },
+      {
+        "icon": "dossiers",
+        "value": "511+",
+        "label": "Ready dossiers"
+      }
+    ]
   }
 };
 window.CresolabFallbackProducts = [

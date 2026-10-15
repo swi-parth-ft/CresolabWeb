@@ -242,12 +242,29 @@ function toast(message) {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => el.classList.remove("visible"), 4000);
 }
+function statisticsHTML() {
+  const statistics = company.statistics;
+  if (!statistics?.items?.length) return "";
+  const icons = {
+    globe:
+      '<circle cx="20" cy="20" r="15"/><ellipse cx="20" cy="20" rx="6.5" ry="15"/><path d="M5 20h30M8 11h24M8 29h24"/>',
+    award:
+      '<circle cx="20" cy="16" r="10"/><path d="m20 10 1.9 3.9 4.3.6-3.1 3 .7 4.3-3.8-2-3.8 2 .7-4.3-3.1-3 4.3-.6ZM12 23l-3 12 7-3 4 4 2-10M28 23l3 12-7-3"/>',
+    clients:
+      '<circle cx="20" cy="12" r="5"/><path d="M10 32v-4a10 10 0 0 1 20 0v4ZM8 17a4 4 0 1 1 4-6M32 17a4 4 0 1 0-4-6M8 21a7 7 0 0 0-5 7v2h4M32 21a7 7 0 0 1 5 7v2h-4"/>',
+    products:
+      '<path d="m5 12 15-7 15 7v17l-15 7-15-7ZM5 12l15 7 15-7M20 19v17M12 9l15 7v8"/>',
+    dossiers:
+      '<rect x="5" y="7" width="9" height="28" rx="1"/><path d="M5 14h9M5 28h9M15 7h8v28h-8M16 14h7M16 28h7M25 8l8-2 6 27-8 2ZM27 15l8-2M30 28l8-2"/>',
+  };
+  return `<section class="statistics-section" aria-labelledby="statistics-title"><div class="container"><div class="statistics-heading"><h2 id="statistics-title">Cresolab, in numbers.</h2>${statistics.isPlaceholder ? '<p class="statistics-note">Illustrative figures</p>' : ""}</div><dl class="statistics-list">${statistics.items.map((item) => `<div class="stat-badge reveal"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false">${icons[item.icon] || icons.globe}</svg><dt>${escapeHTML(item.label)}</dt><dd>${escapeHTML(item.value)}</dd></div>`).join("")}</dl></div></section>`;
+}
 function homeHTML() {
   return `<section class="hero">
     <img class="hero-image" src="./assets/images/products/capsules.webp" width="900" height="900" alt="Representative pharmaceutical capsule pack" fetchpriority="high">
     <div class="container hero-inner"><span class="eyebrow">Pharmaceutical trading · Surat, India</span><h1 class="hero-brand" aria-label="Cresolab Lifecare — pharmaceutical trading"><img src="./assets/brand/cresolab-logo.png" width="1230" height="405" alt="Cresolab Lifecare Pvt Ltd"></h1><h2 class="hero-headline">Pharma trading,<br><span class="serif">with a personal touch.</span></h2><p class="hero-description">A focused product range. A direct conversation.<br>Let’s find what your business needs.</p><div class="hero-actions">${link("#/products", "Explore products")}${textLink("#/contact", "Talk to us")}</div></div>
     <div class="container hero-bottom"><a href="#product-range" data-explore-range>Discover the range ${downArrow}</a><span>Representative product imagery</span></div>
-  </section>
+  </section>${statisticsHTML()}
   <section class="section" id="product-range"><div class="container"><div class="section-head reveal"><div><span class="eyebrow">Our products</span><h2>A focused range.<br><span class="serif">For your everyday requirements.</span></h2></div>${textLink("#/products", "View all products")}</div><div class="range-grid">${categories.map(([category, image]) => `<a class="range-item reveal" href="#/products?category=${encodeURIComponent(category)}"><div class="range-image"><img src="./assets/images/products/${image}.webp" alt="Representative ${category.toLowerCase()} packaging" width="900" height="900" loading="lazy"></div><div class="range-label"><span>${category}</span>${arrow}</div></a>`).join("")}</div><p class="range-caption">Representative packaging shown. Contact us for current product and pack details.</p></div></section>
   <section class="section approach-section"><div class="container approach-layout"><div class="approach-intro reveal"><span class="eyebrow">A straightforward approach</span><h2>Less back and forth.<br><span class="serif">More clarity.</span></h2><p>From a first enquiry to an agreed requirement, our trading conversations start with the details that matter to your business.</p>${textLink("#/trading", "How we work")}</div><div class="reveal">${steps()}</div></div></section>`;
 }
