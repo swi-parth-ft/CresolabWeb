@@ -1,56 +1,15 @@
 // Generated from data/company.json and data/products.json. Do not edit directly.
 window.CresolabFallbackCompany = {
   "name": "Cresolab",
-  "tagline": "Science with purpose. Partnerships with possibility.",
-  "description": "Pharmaceutical formulations and manufacturing partnerships, based in Surat, Gujarat, India.",
+  "tagline": "Pharma trading, with a personal touch.",
+  "description": "Cresolab Lifecare is a pharmaceutical trading business based in Surat, Gujarat, India.",
   "contact": {
     "address": "Plot No. 248, GIDC Industrial Estate, Sachin, Surat, Gujarat 394230, India",
     "phone": "+91 261 2840911",
     "email": "info@cresolab.com",
     "emailInquiry": "inquiry@cresolab.com",
     "emailExport": "export@cresolab.com"
-  },
-  "resources": [
-    {
-      "id": "quality-by-design",
-      "category": "Quality",
-      "title": "What to look for in a pharmaceutical manufacturing partner",
-      "summary": "A practical starting point for discussing quality systems, manufacturing scope, and supporting documentation.",
-      "body": [
-        "Start with the scope: dosage form, manufacturing site, proposed market, and the activities covered by the relevant authorization. A general statement about quality is not a substitute for current, site-specific documentation.",
-        "A useful quality discussion covers trained personnel, documented processes, material controls, validation, testing, and the handling of deviations and complaints. These are connected parts of a pharmaceutical quality system.",
-        "Before making a sourcing decision, request the applicable licenses and certificates, establish the quality agreement, and arrange technical or quality due diligence appropriate to the project."
-      ],
-      "sourceTitle": "WHO — Good Manufacturing Practices",
-      "sourceUrl": "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
-    },
-    {
-      "id": "product-documentation",
-      "category": "Regulatory",
-      "title": "Product documentation starts with the destination market",
-      "summary": "Why product, site, and market details belong at the beginning of every export conversation.",
-      "body": [
-        "The same formulation can have different registration requirements in different countries. Begin a discussion with the product name, dosage form, strength, proposed manufacturer, and destination market.",
-        "Under the WHO certification scheme, a Certificate of a Pharmaceutical Product (CPP) communicates the status of a product and applicant in the exporting country. It should not be treated as a blanket approval for every product or market.",
-        "Ask which documents apply to your project, who issues them, and whether they are current. The importing country’s authority determines the requirements for local authorization."
-      ],
-      "sourceTitle": "WHO — Certification scheme for pharmaceutical products",
-      "sourceUrl": "https://www.who.int/teams/regulation-prequalification/regulation-and-safety/regulatory-convergence-networks/certification-scheme"
-    },
-    {
-      "id": "quality-process",
-      "category": "Manufacturing",
-      "title": "Quality belongs throughout the manufacturing process",
-      "summary": "Understanding why finished-product testing is one part of a much wider control system.",
-      "body": [
-        "Good manufacturing practice is designed to reduce risks that cannot be addressed by testing the finished product alone. Consistent processes and documented controls matter from incoming materials through production.",
-        "During a technical discussion, ask how the proposed product will be manufactured, packaged, tested, and released. Clear responsibilities and documented procedures make the conversation more useful than broad promises of perfection.",
-        "This overview is business information. Product-specific specifications, validation requirements, and quality arrangements should be established with the responsible technical and regulatory teams."
-      ],
-      "sourceTitle": "WHO — Medicines: good manufacturing practices",
-      "sourceUrl": "https://www.who.int/news-room/questions-and-answers/item/medicines-good-manufacturing-processes"
-    }
-  ]
+  }
 };
 window.CresolabFallbackProducts = [
   {

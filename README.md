@@ -1,6 +1,6 @@
-# Cresolab website
+# Cresolab Lifecare website
 
-A dependency-free, responsive website built with HTML, CSS, JavaScript, and JSON.
+A minimal pharmaceutical trading website for Cresolab Lifecare, built with HTML, CSS, vanilla JavaScript, and JSON. No build step or runtime dependencies.
 
 ## Run locally
 
@@ -8,30 +8,39 @@ A dependency-free, responsive website built with HTML, CSS, JavaScript, and JSON
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8765`. No build step is required. Hash routes also work on static hosting such as GitHub Pages.
+Open `http://127.0.0.1:8765`. Hash routes work on static hosts, including GitHub Pages.
+
+## Pages
+
+- Home: trading introduction, product categories, and a short enquiry process.
+- Products: image-led catalog with composition search, dosage-form and therapeutic-area filters, product details, and CSV download.
+- How we work: trade enquiry process and practical questions about quantities, availability, and documentation.
+- About us: pharmaceutical trading focus and Surat location.
+- Trade enquiry: contact details and a reviewable email draft.
+- Privacy & website notice.
+
+Former manufacturing, research, global, insights, responsibility, and careers URLs redirect to relevant current pages. Existing product links and query parameters remain supported.
 
 ## Editing
 
-- `index.html`: shared header, accessible navigation, footer, and dialogs.
-- `css/style.css`: responsive visual system and reduced-motion styles.
-- `js/app.js`: routes, page templates, catalog, dialogs, CSV export, and inquiry drafts.
-- `data/company.json`: contact details and sourced educational perspectives.
-- `data/products.json`: supplied product portfolio, with editable image paths and alt text. Shared dosage-form images are marked representative. Replace each record’s image and alt text with approved pack photography and set `imageRepresentative` to `false` when appropriate. Confirm records before publication.
-- `assets/images/*.webp`: optimized representative generated imagery, not real Cresolab facility photographs.
-- `docs/content-research.md`: research sources, editorial decisions, and facts requiring approval.
+- `index.html`: shared navigation, footer, official logo, and accessible dialogs.
+- `css/style.css`: warm ivory and brown visual system, responsive layout, and reduced-motion support.
+- `js/app.js`: routing, page content, catalog interactions, CSV export, and enquiry drafts.
+- `data/company.json`: company description and contact details.
+- `data/products.json`: 18 supplied product records, image paths, and alt text.
+- `assets/brand/cresolab-logo.png`: official supplied logo, extracted from the user's PDF.
+- `assets/images/products/`: representative generated pack images. Replace records' image paths and alt text with approved product photos, and set `imageRepresentative` to `false` when appropriate.
+- `docs/content-research.md`: content direction and reference notes.
+- `docs/verification.md`: current verification results.
 
-After editing either JSON file, run:
+After editing either JSON file, regenerate the static fallback:
 
 ```sh
 node scratch/expand_data.js
 ```
 
-This synchronizes `js/data-fallback.js`. The historical copy-expansion script was replaced so it cannot reintroduce unverified claims.
+## Enquiry behavior
 
-## Inquiry behavior
+The form prepares an email draft locally. Visitors can review and copy it or open it in an email application to send. There is no lead-submission API or delivery confirmation. No analytics, cookies, external fonts, or tracking scripts are included.
 
-The form prepares a reviewable email draft in the visitor's browser. It does not send data to an API, store leads, or report successful delivery. The visitor can copy the draft or open it in an email application and send it there. No analytics, tracking scripts, or remote font dependencies are included.
-
-## Before publishing
-
-Confirm the legal company identity, contact channels, product records, actual manufacturing scope, and any future certification claims. Replace representative imagery with approved company photography if available. See the research document for the complete checklist. This source has not been deployed as part of the redesign.
+Product records and contact details retain the supplied data. Availability, pricing, quantities, pack details, and supporting documents are handled through trade enquiries. Legacy facility imagery remains in the asset directory but is not used by the current site.
