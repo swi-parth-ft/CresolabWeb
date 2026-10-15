@@ -37,3 +37,9 @@ Screenshots and the verification script/output are local, ignored artifacts unde
 - Scan of active source and data for obsolete manufacturing and research messaging.
 
 The enquiry flow is a local email-draft flow. No email was sent, no backend was added, and these checks do not establish deployment status.
+
+## Arrow rendering fix — 15 October 2026
+
+Replaced every diagonal and downward Unicode arrow in shared markup and generated page content with inline SVG paths. Icons inherit the surrounding text colour, remain hidden from assistive technology, and preserve hover motion. Updated CSS and application cache versions to 11.
+
+Verified all six routes in WebKit with an iPhone viewport and in Chromium: no Unicode arrow text remains, icons use SVG paths and the expected stroke styling, and layouts do not overflow. Checked product-dialog and mobile-menu icons, desktop contact layout, and contact screenshots in both engines. WebKit verification uses browser emulation, not a physical iPhone. JavaScript syntax and Git whitespace checks passed.

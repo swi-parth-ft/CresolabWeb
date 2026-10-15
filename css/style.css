@@ -118,11 +118,26 @@ main:focus {
 }
 .arrow {
   display: inline-block;
+  width: 1em;
+  height: 1em;
+  min-width: 12px;
+  min-height: 12px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: -0.12em;
   transition: transform 0.25s var(--ease);
 }
 a:hover .arrow,
 button:hover .arrow {
   transform: translate(3px, -3px);
+}
+a:hover .arrow-down,
+button:hover .arrow-down {
+  transform: translateY(3px);
 }
 .button {
   display: inline-flex;
